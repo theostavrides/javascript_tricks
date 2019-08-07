@@ -11,3 +11,9 @@
 
 ```[1,2,3,[4,5,6,[5,3,6,[3,2,63]]]].flat(Infinity)``` →
 ```[1,2,3,4,5,6,5,3,6,3,2,63]```
+
+### Remove duplicates in an array
+```js
+let arr = [1,2,2,3,4,4,5]
+let noDuplicates = [...new Set(arr)]
+```
