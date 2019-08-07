@@ -1,7 +1,7 @@
 # Javascript Tricks
 
-### Flatten an array of arrays.
-```.flat(depth)``` 
+### Flatten an array of arrays with ```.flat(depth)``` 
+
 
 ```js 
 [1,2,3,4,5,[6,7,8]].flat()
