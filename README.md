@@ -23,7 +23,7 @@ let noDuplicates = [...new Set(arr)]
 ### Get index and value while looping over an array ES6 Style
 ```js
 let arr = [1,2,3,4,5]
-for (const [index, value] in arr.entries()){
+for (const [index, value] of arr.entries()){
   console.log(index, value)
 }
 ```
