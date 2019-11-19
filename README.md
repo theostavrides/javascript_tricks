@@ -55,3 +55,8 @@ const obj = {
 
 printName(obj);
 ```
+
+### Convert String to DOM Nodes
+```js
+let getNodes = str => new DOMParser().parseFromString(str, 'text/html').body.childNodes;
+```
